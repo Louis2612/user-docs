@@ -19,16 +19,14 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // GitHub Pages: replace YOUR-USERNAME with your GitHub username (2 places below)
+  url: 'https://YOUR-USERNAME.github.io',
+  // GitHub Pages serves the site under /<repository-name>/
+  baseUrl: '/emphyra-docs/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Louis2612', // Your GitHub username.
+  projectName: 'user-docs', // Your repository name.
 
   onBrokenLinks: 'throw',
 
@@ -48,8 +46,6 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false,
         theme: {
@@ -70,7 +66,7 @@ const config = {
       navbar: {
         title: 'Emphyra',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Emphyra Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -80,11 +76,6 @@ const config = {
             position: 'left',
             label: 'Emphyra Documentation',
           },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -93,40 +84,14 @@ const config = {
           {
             title: 'Docs',
             items: [
-          {
-            label: 'Emphyra Docs',
-            to: '/',
-          },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Emphyra Docs',
+                to: '/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Emphyra.`,
       },
       prism: {
         theme: prismThemes.github,
