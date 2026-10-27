@@ -22,11 +22,11 @@ const config = {
   // GitHub Pages: replace YOUR-USERNAME with your GitHub username (2 places below)
   url: 'https://YOUR-USERNAME.github.io',
   // GitHub Pages serves the site under /<repository-name>/
-  baseUrl: '/emphyra-docs/',
+  baseUrl: '/user-docs/',
 
   // GitHub pages deployment config.
-  organizationName: 'Louis2612', // Your GitHub username.
-  projectName: 'user-docs', // Your repository name.
+  organizationName: 'Louis2612', 
+  projectName: 'user-docs', 
 
   onBrokenLinks: 'throw',
 
