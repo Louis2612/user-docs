@@ -5,7 +5,6 @@ description: Set up your Emphyra account, create your organization, and get fami
 sidebar_position: 1
 slug: /
 ---
-
 # Getting Started with Emphyra
 
 Set up your Emphyra account, create your organization, and get familiar with the platform.
@@ -67,27 +66,52 @@ Your profile contains four areas:
 
 Keeping these up to date isn't just good practice. Several of these fields feed directly into your employee record, so an accurate profile means accurate records across the organization.
 
-## Finding Your Way Around
+## Set Up Leave Policies
 
-The sidebar is your main way of navigating Emphyra, and it stays consistent no matter where you are in the platform.
+Leave policies define what time off your employees can take, how much they get, and who it applies to. You'll manage all of this from **Leave Settings** in the sidebar.
 
-You'll find the following sections:
+To get started, open **Leave Settings** and select the **Leave Policy** tab.
 
-- **Home:** Your main dashboard, and the fastest way back to your leave widget and daily overview.
-- **Employer:** Manage your organization's information and settings, from legal details to statutory information and work positions.
-- **Employees:** Manage employee records, including adding people one at a time or importing them in bulk.
-- **User Group:** Manage groups and their assigned users, so you can grant access to several people at once.
-- **Roles:** Configure permissions and access, defining exactly what each type of user can see and do.
-- **Audit:** Review changes made within your organization, so you always have a record of who did what and when.
-- **Leave Approval:** Review employee leave requests as they come in.
-- **Leave Settings:** Configure your organization's leave policies, including entitlements and eligibility.
+### Default leave policies
 
-Your profile stays at the top of the sidebar, while **Sign Out** is available at the bottom, always in the same place however deep you are in the platform.
+Emphyra comes with a set of leave policies already configured in line with the Employment Act, so you can start with sensible defaults without building anything from scratch:
+
+- **Annual**
+- **Sick**
+- **Hospitalization**
+- **Maternity**
+- **Paternity**
+
+Each policy has its own entitlement tiers and number of days assigned, so the amount of leave an employee receives can vary based on the tier they fall into.
+
+### Create a custom leave policy
+
+If the defaults don't match how your organization works, you can create your own leave policy:
+
+1. In the **Leave Policy** tab, create a new policy.
+2. Assign a **leave type** to it (for example, Annual).
+3. Define your own **entitlement tiers** and the days that go with each one.
+
+### Assign policies to employees
+
+Leave policies are assigned to employees through **groups**.
+
+#### The default group
+
+By default, every employee is automatically assigned to the **default group**, which has all the default leave policies attached. This means your employees have leave entitlements from the moment they're added, with no extra setup.
+
+You can also attach your own custom policies to the default group. When you do, a custom policy **overrides the default policy of the same leave type**, while the rest of the default policies stay in place.
+
+For example, the default group includes the default Annual leave policy. If you attach a custom policy with the **Annual** leave type to this group, the custom Annual policy replaces the default one. Employees will then follow your custom Annual policy, together with the remaining default policies (Sick, Hospitalization, Maternity, and Paternity).
+
+#### Custom groups
+
+If certain policies should only apply to specific people, create a custom group:
+
+1. Create a new group.
+2. Attach the leave policies you want it to use.
+3. Add the employees who should be part of it.
 
 :::tip
-When configuring Emphyra for the first time, set up your Roles before creating User Groups. User Groups use the roles you create to determine what users can access, so having your roles ready first means you won't have to stop halfway through building a group to define one.
+Start with the default policies and only create custom ones where your organization differs. Since a custom policy overrides the default of the same leave type, you only need to replace the policies that need to change.
 :::
-
-## You're Ready to Go
-
-That's everything you need to know to get started: your account, your organization, your Home page, and how the sidebar fits together.
